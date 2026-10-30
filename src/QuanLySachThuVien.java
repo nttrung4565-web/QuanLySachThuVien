@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class BT3 {
+public class QuanLySachThuVien {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
