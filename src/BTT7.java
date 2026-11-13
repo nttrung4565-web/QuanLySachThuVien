@@ -7,27 +7,23 @@ public class BTT7 {
 
         ArrayList<Sach_t78> danhSach = new ArrayList<>();
 
-        // Tao sach thu nhat
+        // Khoi tao khong doi
         Sach_t78 s1 = new Sach_t78();
-        s1.maSach = "S01";
-        s1.tieuDe = "Lap trinh Java";
-        s1.tacGia = "Nguyen Van A";
-        s1.namXuatBan = 2024;
-        s1.soLuong = 10;
+        s1.setMaSach("S01");
+        s1.setTieuDe("Lap trinh Java");
+        s1.setTacGia("Nguyen Van A");
+        s1.setNamXuatBan(2024);
+        s1.setSoLuong(10);
 
-        // Tao sach thu hai
-        Sach_t78 s2 = new Sach_t78();
-        s2.maSach = "S02";
-        s2.tieuDe = "Lap trinh C++";
-        s2.tacGia = "Tran Van B";
-        s2.namXuatBan = 2023;
-        s2.soLuong = 15;
+        // Khoi tao co doi
+        Sach_t78 s2 = new Sach_t78("S02", "Lap trinh C++",
+                                  "Tran Van B", 2023, 15);
 
-        // Them sach vao danh sach
+        // Them sach vao ArrayList
         danhSach.add(s1);
         danhSach.add(s2);
 
-        // Hien thi danh sach sach
+        // Hien thi danh sach
         System.out.println("DANH SACH SACH");
 
         for (Sach_t78 s : danhSach) {
